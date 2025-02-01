@@ -1,59 +1,85 @@
-Prediction with Regression
+# Advanve Project 1 & 2
+# Prediction with Regression
 
-Project Overview:
-This repository contains two regression projects using simple linear regression:
+## Project Overview
 
-Delivery Time Prediction
+This repository contains two regression projects using **Simple Linear Regression**:
 
-Objective: Predict the delivery time based on sorting time.
-
-Dataset: delivery_time.csv
-
-Approach: Performed exploratory data analysis (EDA), transformations, and selected the best model.
+1. **Delivery Time Prediction**
+2. **Salary Hike Prediction**
 
 
-Salary Hike Prediction
+## 1. Delivery Time Prediction
 
-Objective: Build a prediction model for salary hike based on experience.
+### **Objective:**
+To predict the delivery time based on sorting time.
 
-Dataset: salary_hike.csv
+### **Dataset:**
+`delivery_time.csv`
 
-Approach: Analyzed data, performed feature engineering, and built a regression model.
+### **Approach:**
+- Performed **Exploratory Data Analysis (EDA)** to understand the relationship between sorting time and delivery time.
+- Applied necessary **transformations** (e.g., log transformation) to improve model accuracy.
+- Built and evaluated a **Simple Linear Regression model** to predict delivery time.
 
+---
 
-Tools & Technologies Used
+## 2. Salary Hike Prediction
 
-Programming Language: Python
+### **Objective:**
+To build a prediction model for salary hike based on years of experience.
 
-Libraries:
-Pandas → Data manipulation,
-NumPy → Numerical computations,
-Seaborn & Matplotlib → Data visualization,
-Scikit-learn → Machine learning (Linear Regression),
-Statsmodels → Model summary and statistical analysis,
-Jupyter Notebook → Code execution,
-Excel → Model representation.
+### **Dataset:**
+`salary_hike.csv`
 
+### **Approach:**
+- Analyzed the dataset to identify the relationship between **experience** and **salary hike**.
+- Performed **feature engineering** to enhance the model.
+- Built a **Simple Linear Regression model** and evaluated its performance.
 
-Key Insights from the Projects
-Delivery Time Prediction:
+---
 
-Sorting time and delivery time have a positive correlation.
-Model accuracy improved after log transformation.
+## Tools & Technologies Used
 
-Salary Hike Prediction:
+- **Programming Language:** Python
+- **Libraries:**
+  - **Pandas:** Data manipulation
+  - **NumPy:** Numerical computations
+  - **Seaborn & Matplotlib:** Data visualization
+  - **Scikit-learn:** Machine learning (Linear Regression)
+  - **Statsmodels:** Model summary and statistical analysis
+  - **Jupyter Notebook:** Code execution
+  - **Excel:** Model representation
+  
 
-Experience strongly impacts salary hike.
-A simple linear regression model provides good predictions.
+## Key Insights from the Projects
 
+### **Delivery Time Prediction:**
+- **Key Insight:** Sorting time and delivery time have a positive correlation.
+- **Model Improvement:** The accuracy of the model increased significantly after performing a log transformation.
 
-Business Impact
+### **Salary Hike Prediction:**
+- **Key Insight:** Years of experience strongly influence the salary hike.
+- **Model Performance:** The simple linear regression model provides good predictions based on experience.
 
-Delivery Time Prediction: Helps businesses optimize logistics and improve efficiency.
+## Business Impact
 
-Salary Hike Prediction: Assists HR in making data-driven salary decisions.
+### **Delivery Time Prediction:**
+- **Impact:** Helps businesses optimize logistics, improve delivery efficiency, and reduce costs.
 
+### **Salary Hike Prediction:**
+- **Impact:** Assists HR departments in making data-driven salary decisions, improving employee satisfaction and retention.
 
-Keywords for Discoverability
+## Keywords for Discoverability
 
-Machine Learning, Linear Regression, Python, EDA, Data Science, Salary Prediction, Delivery Time Prediction, Business Analytics, Data Visualization, Seaborn, Scikit-learn
+- Machine Learning
+- Linear Regression
+- Python
+- EDA
+- Data Science
+- Salary Prediction
+- Delivery Time Prediction
+- Business Analytics
+- Data Visualization
+- Seaborn
+- Scikit-learn
